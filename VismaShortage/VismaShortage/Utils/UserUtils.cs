@@ -32,6 +32,7 @@ namespace VismaShortage.Utils
                         {
                             Console.Write(" You are a regular user.");
                         }
+                        Console.WriteLine();
                         return user;
                     }
                 }

@@ -67,10 +67,10 @@ namespace VismaShortage.Utils
 
                     case "3":
                         Console.WriteLine("Select option for filter:");
-                        Console.WriteLine("[t (string with title)] Filter by Title");
+                        Console.WriteLine("[t (title)] Filter by Title");
                         Console.WriteLine("[d (start-date end-date)] Filter by Date");
-                        Console.WriteLine("[c (string with category name)] Filter by Category");
-                        Console.WriteLine("[r (string with room name)] Filter by Title");
+                        Console.WriteLine("[c (category name)] Filter by Category");
+                        Console.WriteLine("[r (room name)] Filter by Title");
                         Console.WriteLine("[Press Enter] No filter");
                         Console.WriteLine();
                         string? userFilterInput = Console.ReadLine();

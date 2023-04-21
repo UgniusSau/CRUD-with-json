@@ -168,6 +168,11 @@ namespace VismaShortage.Utils
             }
             else
             {
+                if(filter.Length < 3)
+                {
+                    Console.WriteLine("Invalid filter value. Please try again.");
+                    return false;
+                }
                 char filterOption = filter[0];
                 string filterValue = filter.Substring(2);
                 FilterAndPrintShortagesByFilter(shortages, user, filterOption, filterValue);
